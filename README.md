@@ -23,4 +23,30 @@ You will use your data warehousing skills to design and implement a data warehou
 - Create MQTs
 - Create a Dashboard
 
+# Solution
+
+First Run the Create_Query.sql, you will get following ERD afterwards
+
 ![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/f1423950-f8d7-4ad5-945e-cf0973442b61)
+
+# Create a grouping sets query
+Create a grouping sets query using the columns stationid, trucktype, total waste collected.
+```sql
+SELECT
+    ft."Stationid",
+    dt."TruckType",
+    SUM(ft."Wastecollected") AS "Total Waste Collected"
+FROM
+    public."FactTrips" AS ft
+LEFT JOIN
+    public."DimStation" AS ds ON ds."Stationid" = ft."Stationid"
+LEFT JOIN
+    public."DimTruck" AS dt ON dt."Truckid" = ft."Truckid"
+GROUP BY
+    ft."Stationid",
+    dt."TruckType"
+ORDER BY
+    ft."Stationid" ASC;
+```
+
+<img width="481" alt="image" src="https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/eb84554d-d8c7-48a3-9e49-83180b61dcdd">
