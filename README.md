@@ -23,9 +23,18 @@ You will use your data warehousing skills to design and implement a data warehou
 - Create MQTs
 - Create a Dashboard
 
+  Firstly, The solid waste management company has provied you the sample data they wish to collect.
+![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/10fcab13-c6c7-4cda-84ba-a512d319f679)
+
+You will start your project by designing a Star Schema warehouse by identifying the columns for the various dimension and fact tables in the schema.
+
+
+
 # Solution
 
-First Run the Create_Query.sql, you will get following ERD afterwards, and import the associated csv files to load the data into tables.
+First I need to develop the dimension/fact tables such as: MyDimDate, MyDimWaste, MyDimZone, and MyFactTrips and define the attributes based on the requiremtnt/to provide the optimal solution, but I got csv files already in this case (which maynot happen in real scenario))
+
+So, Run the Create_Query.sql, you will get following ERD afterwards, and import the associated csv files to load the data into tables.
 
 ![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/f1423950-f8d7-4ad5-945e-cf0973442b61)
 
