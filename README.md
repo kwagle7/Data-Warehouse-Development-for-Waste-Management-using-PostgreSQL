@@ -25,7 +25,7 @@ You will use your data warehousing skills to design and implement a data warehou
 
 # Solution
 
-First Run the Create_Query.sql, you will get following ERD afterwards, and import the associate csv files.
+First Run the Create_Query.sql, you will get following ERD afterwards, and import the associated csv files.
 
 ![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/f1423950-f8d7-4ad5-945e-cf0973442b61)
 
