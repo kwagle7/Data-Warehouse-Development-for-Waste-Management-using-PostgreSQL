@@ -154,4 +154,9 @@ According to ChatGpt:
 
 ![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/ce1d6b8b-8a74-4c05-8afd-f8b2ddb114f0)
 
-
+### Group by vs Grouping Sets
+![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/00c19299-1b82-4dd8-b023-2ba9ee3c5d47)
+Equivalent of all three query is obtained by following query 
+(Note: Running above query is costlier)
+![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/690772b5-f40a-416a-bac2-3e6e3eb48528)
+This gives the result of group by (state) first, appends result of group by (state and city), and then appends group by (state, city, and product), all information in the same table, which is equivalent to running three separate queries.
