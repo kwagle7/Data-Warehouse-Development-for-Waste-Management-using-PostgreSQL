@@ -140,3 +140,17 @@ SELECT * FROM public.max_waste_stats
 Output:
 
 <img width="681" alt="image" src="https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/24cfd789-7bca-4298-ac7d-46839d615187">
+
+# FAQs
+
+# SQL Script Comparison
+What is the difference between following?
+![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/01758692-8834-4955-aaa2-bf4911cc560d)
+
+Generally, there is no difference.
+According to ChatGpt:
+
+![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/ce1d6b8b-8a74-4c05-8afd-f8b2ddb114f0)
+
+
+
