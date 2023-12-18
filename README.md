@@ -160,3 +160,7 @@ Equivalent of all three query is obtained by following query
 (Note: Running above query is costlier)
 ![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/690772b5-f40a-416a-bac2-3e6e3eb48528)
 This gives the result of group by (state) first, appends result of group by (state and city), and then appends group by (state, city, and product), all information in the same table, which is equivalent to running three separate queries.
+
+Sample output:
+
+![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/ca8c49a2-f9f8-48b2-b614-cd0cda0b55e2)
