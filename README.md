@@ -147,10 +147,11 @@ Output:
 What is the difference between following?
 ![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/01758692-8834-4955-aaa2-bf4911cc560d)
 
-Generally, there is no difference.
+Generally, there is no difference. DimDate_pkey is automatically generated as a constraint although we dont specifically defined as a constraint.
+
+![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/4f2e6333-d5e2-40dc-8254-129b37d00f19)
 According to ChatGpt:
 
 ![image](https://github.com/kwagle7/Data-Warehouse-Development-for-Waste-Management-using-PostgreSQL/assets/13037108/ce1d6b8b-8a74-4c05-8afd-f8b2ddb114f0)
-
 
 
